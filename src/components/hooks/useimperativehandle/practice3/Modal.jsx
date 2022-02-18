@@ -17,4 +17,4 @@ function ChildComponent(props, ref) {
   );
 }
 
-export default forwardRef(ChildComponent);
+export default forwardRef(ChildComponent); // useImperativeHandle에 정의된 openModal 함수를 노출하기 위해 하위 컴포넌트를 래핑
