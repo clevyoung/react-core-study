@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import List from './components/hooks/useimperativehandle/practice1/List';
+import ModalParent from './components/hooks/useimperativehandle/practice3/stateLifting/ModalParent';
+import ModalParent2 from './components/hooks/useimperativehandle/practice3/ModalParent';
+import InputParent from './components/hooks/useimperativehandle/practice2/InputParent';
+import CounterParent from './components/hooks/useimperativehandle/practice4/CounterParent';
+import Counter from './components/hooks/useMemo/practice1/Counter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      {/* <List /> */}
+      {/* <ModalParent />
+      <ModalParent2 /> */}
+      {/* <CounterParent /> */}
+      <Counter />
+      {/* <InputParent /> */}
     </div>
   );
 }
